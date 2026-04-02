@@ -1,0 +1,520 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: radial-gradient(circle at top, #0f0f1a, #000);
+    color: white;
+}
+
+/* LOGO */
+.logo-text {
+    color: #a855f7;
+    text-shadow: 0 0 10px #a855f7, 0 0 30px #a855f7;
+}
+
+.logo-icon {
+    background: #a855f7;
+    box-shadow: 0 0 15px #a855f7, 0 0 40px #a855f7;
+}
+
+/* TEXTE HERO */
+.glow-text {
+    animation: glowPurple 2s infinite alternate;
+}
+
+@keyframes glowPurple {
+    from {
+        text-shadow: 0 0 10px #a855f7;
+    }
+    to {
+        text-shadow: 0 0 20px #a855f7, 0 0 50px #a855f7;
+    }
+}
+
+/* BOUTONS */
+.buttons button {
+    background: #a855f7;
+    box-shadow: 0 0 15px #a855f7;
+}
+
+.buttons button:hover {
+    background: white;
+    box-shadow: 0 0 30px white, 0 0 60px #a855f7;
+}
+
+/* INFO */
+.info {
+    padding: 50px;
+    text-align: center;
+}
+
+/* FOOTER */
+footer {
+    padding: 20px;
+    text-align: center;
+    background: #111;
+}
+/* SECTION PRODUITS */
+.produits-section {
+    padding: 50px;
+    text-align: center;
+}
+
+.title {
+    font-size: 35px;
+    margin-bottom: 40px;
+    text-shadow: 0 0 10px cyan;
+}
+
+/* CONTAINER */
+.produits-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+/* CARTE PRODUIT */
+.card {
+    background: #111;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    transition: 0.3s;
+    box-shadow: 0 0 10px rgba(0,255,255,0.2);
+}
+
+.card:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 0 20px cyan, 0 0 40px cyan;
+}
+
+/* IMAGE */
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* TEXTE */
+.card h3 {
+    margin: 15px 0 10px;
+}
+
+/* BOUTON */
+.card button {
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    background: cyan;
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 0 10px cyan;
+}
+
+.card button:hover {
+    background: white;
+}
+/* LOGO CONTAINER */
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* LOGO FDS */
+.logo-icon {
+    background: cyan;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px cyan, 0 0 30px cyan;
+    font-size: 18px;
+}
+
+/* TEXTE DU LOGO */
+.logo-text {
+    font-size: 22px;
+    color: white;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px cyan;
+}
+/* RÉSEAUX SOCIAUX */
+/* RÉSEAUX SOCIAUX HORIZONTAUX */
+/* RÉSEAUX SOUS ADRESSE */
+.socials {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* ICONES */
+.socials a {
+    color: white;
+    font-size: 20px;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: #111;
+    transition: 0.3s;
+}
+
+/* HOVER VIOLET */
+.socials a:hover {
+    background: #a855f7;
+    color: white;
+    box-shadow: 0 0 15px #a855f7, 0 0 30px #a855f7;
+    transform: scale(1.2);
+}
+/* HEADER ALIGNEMENT */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+}
+
+/* NAVIGATION À DROITE */
+.nav-links {
+    display: flex;
+    gap: 15px;
+}
+
+/* LIENS STYLÉS */
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 18px;
+    border: 2px solid transparent;
+    border-radius: 25px;
+    position: relative;
+    transition: 0.3s;
+    font-weight: 500;
+}
+
+/* EFFET CADRE NÉON */
+.nav-links a:hover {
+    border: 2px solid #a855f7;
+    box-shadow: 0 0 10px #a855f7, 0 0 25px #a855f7;
+    background: rgba(168, 85, 247, 0.1);
+}
+
+/* LIEN ACTIF (optionnel) */
+.nav-links a.active {
+    border: 2px solid #a855f7;
+    box-shadow: 0 0 15px #a855f7;
+}
+/* BOUTONS WHATSAPP & APPELER */
+.buttons button {
+    background: transparent;      /* fond transparent */
+    color: white;                 /* texte blanc */
+    padding: 12px 25px;
+    font-weight: 500;
+    border: 2px solid #a855f7;   /* bordure violet néon */
+    border-radius: 25px;          /* arrondi comme menu */
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 0 5px #a855f7, 0 0 15px #a855f7;
+}
+
+/* HOVER */
+.buttons button:hover {
+    background: rgba(168, 85, 247, 0.1);   /* fond violet léger */
+    box-shadow: 0 0 15px #a855f7, 0 0 30px #a855f7;
+    transform: scale(1.05);                 /* léger zoom */
+}
+/* SECTION SERVICES */
+.services-section {
+    padding: 50px;
+    text-align: center;
+}
+
+.services-section .title {
+    font-size: 35px;
+    margin-bottom: 40px;
+    text-shadow: 0 0 10px #a855f7;
+}
+
+/* CONTAINER */
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+/* CARTE SERVICE */
+.service-card {
+    background: #111;
+    padding: 20px;
+    border-radius: 15px;
+    width: 250px;
+    box-shadow: 0 0 10px #a855f7, 0 0 20px #a855f7;
+    transition: 0.3s;
+}
+
+.service-card:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 0 20px #a855f7, 0 0 40px #a855f7;
+}
+
+/* TITRE & TEXTE */
+.service-card h3 {
+    margin-bottom: 15px;
+    text-shadow: 0 0 5px #a855f7;
+}
+
+.service-card p {
+    margin: 5px 0;
+}
+/* TITRES DES SERVICES SOULIGNÉS */
+.service-card h3 {
+    margin-bottom: 15px;
+    text-shadow: 0 0 5px #a855f7;
+    border-bottom: 2px solid #a855f7;  /* soulignement violet néon */
+    padding-bottom: 5px;
+}
+
+/* PRIX AVEC COULEUR DISTINCTE */
+.service-card p {
+    margin: 5px 0;
+    color: #facc15;  /* jaune vif pour les prix */
+    font-weight: 600;
+}
+.multi-price::before {
+    content: "• ";
+    color: #a855f7;
+    font-weight: bold;
+}
+/* SECTION CONTACT */
+.contact-section {
+    padding: 50px;
+    text-align: center;
+}
+
+.contact-section .title {
+    font-size: 35px;
+    margin-bottom: 40px;
+    text-shadow: 0 0 10px #a855f7;
+}
+
+/* CONTAINER FLEX */
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+/* INFO CONTACT */
+.contact-info {
+    flex: 1;
+    min-width: 250px;
+    color: white;
+}
+
+/* FORMULAIRE */
+.contact-form {
+    flex: 1;
+    min-width: 250px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 12px;
+    border-radius: 15px;
+    border: 2px solid #a855f7;
+    background: #111;
+    color: white;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    box-shadow: 0 0 15px #a855f7;
+    border-color: #a855f7;
+}
+
+.contact-form button {
+    padding: 12px;
+    border-radius: 25px;
+    border: 2px solid #a855f7;
+    background: transparent;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 0 5px #a855f7, 0 0 15px #a855f7;
+}
+
+.contact-form button:hover {
+    background: rgba(168,85,247,0.1);
+    box-shadow: 0 0 20px #a855f7, 0 0 40px #a855f7;
+    transform: scale(1.05);
+}
+
+/* RÉSEAUX SOCIAUX HORIZONTAL */
+.contact-info .socials {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+}
+
+.contact-info .socials a {
+    color: white;
+    font-size: 22px;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: #111;
+    transition: 0.3s;
+}
+
+.contact-info .socials a:hover {
+    background: #a855f7;
+    color: white;
+    box-shadow: 0 0 15px #a855f7, 0 0 30px #a855f7;
+    transform: scale(1.2);
+}
+/* GOOGLE MAPS */
+.map-container {
+    margin-top: 20px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 15px #a855f7, 0 0 30px #a855f7;
+}
+/* BOUTON WHATSAPP */
+.whatsapp-btn {
+    margin-top: 15px;
+    padding: 12px 25px;
+    border-radius: 25px;
+    border: 2px solid #25D366; /* vert WhatsApp */
+    background: transparent;
+    color: #25D366;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 0 5px #25D366, 0 0 15px #25D366;
+}
+
+.whatsapp-btn:hover {
+    background: rgba(37, 211, 102, 0.1);
+    box-shadow: 0 0 20px #25D366, 0 0 40px #25D366;
+    transform: scale(1.05);
+}
+/* IMAGE DANS LES CARTES SERVICE */
+.service-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0; /* arrondi seulement en haut */
+    margin-bottom: 15px;
+    box-shadow: 0 0 10px #a855f7, 0 0 20px #a855f7;
+    transition: 0.3s;
+}
+
+/* Hover sur image */
+.service-card:hover img {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #a855f7, 0 0 40px #a855f7;
+}
+/* TEXTE HERO */
+.hero-text {
+    font-size: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+    line-height: 1.6;
+    color: #e0e0e0;
+    text-align: center;
+}
+
+/* Glow léger sur mots importants */
+.hero-text strong {
+    color: #a855f7;
+    text-shadow: 0 0 10px #a855f7;
+}
+/* HERO H2 GLOW ANIMÉ + LÉGER MOVEMENT */
+.glow-text {
+    font-size: 45px;
+    color: #a855f7;
+    text-align: center;
+    animation: glowMove 3s infinite alternate, floatText 6s ease-in-out infinite;
+}
+
+/* Glow pulse */
+@keyframes glowMove {
+    from {
+        text-shadow: 0 0 10px #a855f7, 0 0 20px #a855f7;
+    }
+    to {
+        text-shadow: 0 0 20px #f0f, 0 0 40px #a855f7, 0 0 60px #f0f;
+    }
+}
+
+/* Léger mouvement vertical */
+@keyframes floatText {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-8px); }
+    100% { transform: translateY(0px); }
+}
+
+/* Optionnel : glow léger sur le texte hero */
+.hero-text strong {
+    animation: glowStrong 2s infinite alternate;
+}
+
+@keyframes glowStrong {
+    from { text-shadow: 0 0 5px #a855f7; }
+    to { text-shadow: 0 0 15px #f0f, 0 0 30px #a855f7; }
+}
+/* H2 Glow type animation */
+.glow-text {
+    text-align: center;
+    font-size: 45px;
+    color: #a855f7;
+    display: inline-block;
+}
+
+.glow-text span {
+    opacity: 0;
+    display: inline-block;
+    animation: fadeInGlow 1s forwards;
+}
+
+/* Appliquer un délai à chaque mot */
+.glow-text span:nth-child(1) { animation-delay: 0s; }
+.glow-text span:nth-child(2) { animation-delay: 0.5s; }
+.glow-text span:nth-child(3) { animation-delay: 1s; }
+.glow-text span:nth-child(4) { animation-delay: 1.5s; }
+.glow-text span:nth-child(5) { animation-delay: 2s; }
+
+/* Animation fade + glow */
+@keyframes fadeInGlow {
+    0% {
+        opacity: 0;
+        text-shadow: 0 0 0px #a855f7;
+        transform: translateY(10px);
+    }
+    100% {
+        opacity: 1;
+        text-shadow: 0 0 15px #f0f, 0 0 30px #a855f7;
+        transform: translateY(0);
+    }
+}
