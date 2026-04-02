@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Produits - Fofana Design Shop</title>
+
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+    <div class="logo-container">
+        <div class="logo-icon">FDS</div>
+        <h1 class="logo-text">Fofana Design Shop</h1>
+    </div>
+
+    <nav class="nav-links">
+        <a href="index.html">Accueil</a>
+        <a href="produits.html"  class="active">Produits</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<section class="produits-section">
+
+    <h2 class="title">🛍️ Nos Produits</h2>
+
+    <div class="produits-container">
+
+        <!-- Produit 1 -->
+        <div class="card">
+            <img src="images/Maillot.jpg">
+            <h3>Maillot de football</h3>
+            <p>Prix :5000/7000 FCFA</p>
+            <button onclick="commander('Maillot de football')">Commander</button>
+        </div>
+
+        <!-- Produit 2 -->
+        <div class="card">
+            <img src="images/chaussette.jpg">
+            <h3>Chaussettes</h3>
+            <p>Prix : 500/1000 FCFA</p>
+            <button onclick="commander('Chaussettes')">Commander</button>
+        </div>
+
+        <!-- Produit 3 -->
+        <div class="card">
+            <img src="images/crampons.jpg">
+            <h3>Chaussures tendance</h3>
+            <p>Prix : 15000 FCFA</p>
+            <button onclick="commander('Chaussures tendance')">Commander</button>
+        </div>
+
+    </div>
+
+</section>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
